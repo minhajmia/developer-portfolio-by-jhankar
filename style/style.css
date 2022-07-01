@@ -6,6 +6,7 @@ section{
     display:flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 4rem;
 }
 section .left-width h1{
     font-size: 2.5rem;
@@ -15,7 +16,7 @@ section .left-width h1{
 section .left-width .orange-color{
     color: #FA6F5B;
 }
-section .left-width .link-button{
+ .link-button{
     text-decoration: none;
     padding:0.5rem 2rem;
     background:linear-gradient(90deg,#FA6F5B, #ff9e8f);
@@ -23,18 +24,30 @@ section .left-width .link-button{
     font-weight: 800;
     color:#000;
 }
-section .left-width{
+.left-width{
     width:50%;
     padding:0  8rem;
 }
-section .right-width{
+ .right-width{
     width:40%;
 }
-section .right-width img {
+.right-width img {
 width: 70%;
 }
 .top-banner{
     background-image: url(/img/top-banner.png);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.dream-big img{
+    width: 80%;
+}
+.dream-big .right-width{
+    padding: 0 7rem;
+}
+.dream-big{
+    background-image: url(/img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
